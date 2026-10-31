@@ -1,0 +1,4 @@
+https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/FEMA_R6_OK_Craig_Nowata_QL2_Lidar/OK_Craig_Nowata_2015/LAZ/USGS_LPC_FEMA_R6_OK_Craig_Nowata_QL2_Lidar_15STA625635.laz
+https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/FEMA_R6_OK_Craig_Nowata_QL2_Lidar/OK_Craig_Nowata_2015/LAZ/USGS_LPC_FEMA_R6_OK_Craig_Nowata_QL2_Lidar_15STA625650.laz
+https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/FEMA_R6_OK_Craig_Nowata_QL2_Lidar/OK_Craig_Nowata_2015/LAZ/USGS_LPC_FEMA_R6_OK_Craig_Nowata_QL2_Lidar_15STA640650.laz
+https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/OK_Craig_Nowata_2015/TIFF/USGS_one_meter_x26y407_OK_Craig_Nowata_2015.tif

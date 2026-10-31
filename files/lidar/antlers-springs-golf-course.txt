@@ -1,0 +1,6 @@
+https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/USGS_LPC_OK_Woodward_UTM15_B5_2016__LAS_2018/laz/USGS_LPC_OK_Woodward_UTM15_B5_2016__15STT253787_LAS_2018.laz
+https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/USGS_LPC_OK_Woodward_UTM15_B5_2016__LAS_2018/laz/USGS_LPC_OK_Woodward_UTM15_B5_2016__15STT253789_LAS_2018.laz
+https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/USGS_LPC_OK_Woodward_UTM15_B5_2016__LAS_2018/laz/USGS_LPC_OK_Woodward_UTM15_B5_2016__15STT255787_LAS_2018.laz
+https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/USGS_LPC_OK_Woodward_UTM15_B5_2016__LAS_2018/laz/USGS_LPC_OK_Woodward_UTM15_B5_2016__15STT255789_LAS_2018.laz
+https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/OK_Woodward_UTM15_B5_2016/TIFF/USGS_one_meter_x25y379_OK_Woodward_UTM15_B5_2016.tif
+https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/OK_Woodward_UTM15_B5_2016/TIFF/USGS_one_meter_x25y380_OK_Woodward_UTM15_B5_2016.tif

@@ -1,0 +1,6 @@
+https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/FEMA_R6_OK_Lower_Cimarron_and_Eagle_Chief_QL2_Lidar/OK_LowerCimarron_2015/LAZ/USGS_LPC_FEMA_R6_OK_Lower_Cimarron_and_Eagle_Chief_QL2_Lidar_14SNF504000.laz
+https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/FEMA_R6_OK_Lower_Cimarron_and_Eagle_Chief_QL2_Lidar/OK_LowerCimarron_2015/LAZ/USGS_LPC_FEMA_R6_OK_Lower_Cimarron_and_Eagle_Chief_QL2_Lidar_14SNF505000.laz
+https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/FEMA_R6_OK_Lower_Cimarron_and_Eagle_Chief_QL2_Lidar/OK_LowerCimarron_2015/LAZ/USGS_LPC_FEMA_R6_OK_Lower_Cimarron_and_Eagle_Chief_QL2_Lidar_14SNF507000.laz
+https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/OK_LowerCimarron_2015/TIFF/USGS_one_meter_x50y401_OK_LowerCimarron_2015.tif
+https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/OK_Woodward_UTM14_B1_2016/TIFF/USGS_one_meter_x50y401_OK_Woodward_UTM14_B1_2016.tif
+https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/OK_Woodward_UTM14_B2_2016/TIFF/USGS_one_meter_x50y401_OK_Woodward_UTM14_B2_2016.tif

@@ -1,0 +1,6 @@
+https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/OK_Statewide_D22/OK_Statewide_4_D22/LAZ/USGS_LPC_OK_Statewide_D22_2455000_170000.laz
+https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/OK_Statewide_D22/OK_Statewide_4_D22/LAZ/USGS_LPC_OK_Statewide_D22_2455000_175000.laz
+https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/OK_Statewide_D22/OK_Statewide_4_D22/LAZ/USGS_LPC_OK_Statewide_D22_2460000_170000.laz
+https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/OK_Statewide_D22/OK_Statewide_4_D22/LAZ/USGS_LPC_OK_Statewide_D22_2460000_175000.laz
+https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/OK_Statewide_D22/TIFF/USGS_1M_14_x74y375_OK_Statewide_D22.tif
+https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/TX_West_Central_UTM14_TL_2018/TIFF/USGS_one_meter_x74y375_TX_West_Central_UTM14_TL_2018.tif

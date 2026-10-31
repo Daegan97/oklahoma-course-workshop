@@ -1,0 +1,8 @@
+https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/OK_3_County_FEMAR6_2017_D18/OK_3County_2017/LAZ/USGS_LPC_OK_3_County_FEMAR6_2017_D18_15SUA3900.laz
+https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/OK_3_County_FEMAR6_2017_D18/OK_3County_2017/LAZ/USGS_LPC_OK_3_County_FEMAR6_2017_D18_15SUA3902.laz
+https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/OK_3_County_FEMAR6_2017_D18/OK_3County_2017/LAZ/USGS_LPC_OK_3_County_FEMAR6_2017_D18_15SUA4000.laz
+https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/OK_3_County_FEMAR6_2017_D18/OK_3County_2017/LAZ/USGS_LPC_OK_3_County_FEMAR6_2017_D18_15SUA4002.laz
+https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/OK_Statewide_D22/TIFF/USGS_1M_15_x33y401_OK_Statewide_D22.tif
+https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/OK_Statewide_D22/TIFF/USGS_1M_15_x34y401_OK_Statewide_D22.tif
+https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/OK_3County_2017/TIFF/USGS_one_meter_x33y401_OK_3County_2017.tif
+https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/OK_3County_2017/TIFF/USGS_one_meter_x34y401_OK_3County_2017.tif
