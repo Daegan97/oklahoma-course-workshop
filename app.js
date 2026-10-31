@@ -12,11 +12,14 @@ async function home(){
  $('tabs').innerHTML=T.map((t,i)=>`<button role="tab" data-i="${i}" aria-selected="${i==0}">${t[0]} <small>${D.filter(t[1]).length}</small></button>`).join('');
  [...new Set(D.map(c=>c.r))].sort().forEach(r=>$('reg').add(new Option(r)));
  const svg=$('map');svg.setAttribute('viewBox',M.vb.join(' '));
- svg.innerHTML=M.p.map(p=>`<path d="${p}"/>`).join('')+D.filter(c=>c.mx!=null).map(c=>`<a class="pin" data-s="${c.s}" href="course.html?c=${c.s}" aria-label="${esc(c.n)}"><g class="flag"><line x1="${c.mx}" y1="${c.my}" x2="${c.mx}" y2="${c.my-24}" stroke="#12302A" stroke-width="1.2"/><path style="fill:#C9281F;stroke:none" d="M${c.mx} ${c.my-24}l14 5l-14 5z"/></g><circle class="dot" cx="${c.mx}" cy="${c.my}" r="4.2" fill="${TC[c.tier]}"/></a>`).join('')+M.towns.map(t=>`<text class="town" x="${t[1]}" y="${t[2]+14}" text-anchor="middle">${t[0]}</text>`).join('')+'<text id="tip"></text>';
+ svg.innerHTML=M.p.map(p=>`<path d="${p}"/>`).join('')+D.filter(c=>c.mx!=null).map(c=>`<a class="pin" data-s="${c.s}" href="course.html?c=${c.s}" aria-label="${esc(c.n)}"><circle class="dot" cx="${c.mx}" cy="${c.my}" r="4.2" fill="${TC[c.tier]}"/></a>`).join('')+M.towns.map(t=>`<text class="town" x="${t[1]}" y="${t[2]+14}" text-anchor="middle">${t[0]}</text>`).join('')+'<g id="hi"></g><text id="tip"></text>';
  const pins=Object.fromEntries([...svg.querySelectorAll('.pin')].map(p=>[p.dataset.s,p]));
- const tip=svg.querySelector('#tip');
- function mark(s,on){const p=pins[s],c=D.find(x=>x.s==s);document.querySelector(`.rows a[data-s="${s}"]`)?.classList.toggle('on',on);if(!p)return;p.classList.toggle('on',on);
-  if(on){p.parentNode.insertBefore(p,tip);const left=c.mx>M.vb[2]*.62;tip.textContent=c.n;tip.setAttribute('x',left?c.mx-6:c.mx+18);tip.setAttribute('y',c.my-20);tip.setAttribute('text-anchor',left?'end':'start')}else tip.textContent=''}
+ const tip=svg.querySelector('#tip'),hi=svg.querySelector('#hi');
+ let cur=null;
+ function clear(){if(!cur)return;document.querySelector(`.rows a[data-s="${cur}"]`)?.classList.remove('on');pins[cur]?.classList.remove('on');hi.textContent='';tip.textContent='';cur=null}
+ function mark(s,on){if(!on){if(s===cur)clear();return}
+  if(s===cur)return;clear();cur=s;const p=pins[s],c=D.find(x=>x.s==s);document.querySelector(`.rows a[data-s="${s}"]`)?.classList.add('on');if(!p)return;p.classList.add('on');
+  const left=c.mx>M.vb[2]*.62;hi.innerHTML=`<line x1="${c.mx}" y1="${c.my}" x2="${c.mx}" y2="${c.my-24}" stroke="#12302A" stroke-width="1.2"/><path style="fill:#C9281F;stroke:none" d="M${c.mx} ${c.my-24}l14 5l-14 5z"/><circle cx="${c.mx}" cy="${c.my}" r="4.8" fill="#C9281F" stroke="#fff"/>`;tip.textContent=c.n;tip.setAttribute('x',left?c.mx-6:c.mx+18);tip.setAttribute('y',c.my-20);tip.setAttribute('text-anchor',left?'end':'start')}
  const rank={Ready:0,Good:1,Thin:2};
  function draw(){const q=$('q').value.toLowerCase().trim(),s=store.get();
   let R=D.filter(T[tab][1]).filter(c=>(!q||(c.n+' '+c.ci+' '+(c.ar||'')+' '+(c.aka||'')).toLowerCase().includes(q))&&(!$('tier').value||c.tier==$('tier').value)&&(!$('reg').value||c.r==$('reg').value));
@@ -27,7 +30,7 @@ async function home(){
  $('tabs').onclick=e=>{const b=e.target.closest('button');if(!b)return;tab=+b.dataset.i;[...$('tabs').children].forEach(x=>x.setAttribute('aria-selected',x==b));draw()};
  ['q','tier','reg','sort'].forEach(i=>$(i).oninput=draw);
  const ev=(el,sel)=>{el.addEventListener('mouseover',e=>{const a=e.target.closest(sel);if(a)mark(a.dataset.s,true)});el.addEventListener('mouseout',e=>{const a=e.target.closest(sel);if(a)mark(a.dataset.s,false)});el.addEventListener('focusin',e=>{const a=e.target.closest(sel);if(a)mark(a.dataset.s,true)});el.addEventListener('focusout',e=>{const a=e.target.closest(sel);if(a)mark(a.dataset.s,false)})};
- ev($('rows'),'a');ev(svg,'.pin');draw();
+ ev($('rows'),'a');ev(svg,'.pin');svg.addEventListener('mouseleave',clear);$('rows').addEventListener('mouseleave',clear);addEventListener('pageshow',clear);addEventListener('scroll',clear,{passive:true,capture:true});draw();
  $('bk').onclick=()=>{const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(store.get(),null,1)],{type:'application/json'}));a.download='oklahoma-workshop-progress.json';a.click();URL.revokeObjectURL(a.href)};
  $('rs').onchange=async e=>{const f=e.target.files[0];if(!f)return;try{const v=JSON.parse(await f.text());if(typeof v!='object'||Array.isArray(v)||!v)throw 0;const ok=Object.fromEntries(Object.entries(v).filter(([k])=>D.some(c=>c.s==k)));store.set({...store.get(),...ok});progress(D.length);draw();$('rsm').textContent=(n=>`Restored ${n} ${n==1?'course':'courses'}.`)(Object.keys(ok).length)}catch{$('rsm').textContent='That file is not a progress backup. Choose the file made by Download my progress.'}}}
 function scorecard(c){if(!c.holes.length)return `<p>No hole-by-hole card has been found for this course. ${c.card==='Totals only'?'Course totals are listed under tees.':'A phone call or a photo of the paper card would fill this in.'}</p>`;

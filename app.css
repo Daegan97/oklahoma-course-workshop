@@ -22,8 +22,7 @@ button,input,select,textarea{font:inherit;color:inherit}
 #map .pin path{stroke:none}
 .town{font:600 10px var(--ui);fill:var(--soft);pointer-events:none;paint-order:stroke;stroke:#D3DFCD;stroke-width:3px}
 .pin{cursor:pointer}.pin .dot{stroke:#fff;stroke-width:.8}
-.pin .flag{opacity:0;transform:translateY(4px);transition:opacity .12s,transform .12s;pointer-events:none}
-.pin.on .flag{opacity:1;transform:none}.pin.on .dot{fill:var(--flag)}
+#hi{pointer-events:none}
 .pin.off{opacity:.13;pointer-events:none}
 #tip{font:800 14px var(--ui);fill:var(--ink);paint-order:stroke;stroke:#EEF2EC;stroke-width:4px;pointer-events:none}
 .key{display:flex;gap:16px;flex-wrap:wrap;font-size:14px;color:var(--soft)}.key span::before{content:'';display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;background:var(--c)}
