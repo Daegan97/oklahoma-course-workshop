@@ -1,4 +1,2 @@
 https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/OK_Panhandle_2018_D18/OK_Panhandle_B1B_2018/LAZ/USGS_LPC_OK_Panhandle_2018_D18_14SPE270255.laz
 https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/OK_Panhandle_2018_D18/OK_Panhandle_B1B_2018/LAZ/USGS_LPC_OK_Panhandle_2018_D18_14SPE285255.laz
-https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/OK_Panhandle_2018_D18/TIFF/USGS_1M_14_x62y393_OK_Panhandle_2018_D18.tif
-https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/OK_Statewide_D22/TIFF/USGS_1M_14_x62y393_OK_Statewide_D22.tif

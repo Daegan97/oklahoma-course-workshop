@@ -4,5 +4,3 @@ https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/OK_St
 https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/OK_Statewide_D22/OK_Statewide_4_D22/LAZ/USGS_LPC_OK_Statewide_D22_2370000_525000.laz
 https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/OK_Statewide_D22/OK_Statewide_4_D22/LAZ/USGS_LPC_OK_Statewide_D22_2375000_520000.laz
 https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/OK_Statewide_D22/OK_Statewide_4_D22/LAZ/USGS_LPC_OK_Statewide_D22_2375000_525000.laz
-https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/OK_Statewide_D22/TIFF/USGS_1M_14_x71y385_OK_Statewide_D22.tif
-https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/OK_Statewide_D22/TIFF/USGS_1M_14_x71y386_OK_Statewide_D22.tif

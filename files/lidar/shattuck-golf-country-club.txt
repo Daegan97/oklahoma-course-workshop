@@ -4,8 +4,3 @@ https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/USGS_
 https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/USGS_LPC_TX_Panhandle_B1_2017_LAS_2019/laz/USGS_LPC_TX_Panhandle_B1_2017_14SMF200110_LAS_2019.laz
 https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/USGS_LPC_TX_Panhandle_B1_2017_LAS_2019/laz/USGS_LPC_TX_Panhandle_B1_2017_14SMF215095_LAS_2019.laz
 https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/USGS_LPC_TX_Panhandle_B1_2017_LAS_2019/laz/USGS_LPC_TX_Panhandle_B1_2017_14SMF215110_LAS_2019.laz
-https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/OK_Woodward_UTM14_B1_2016/TIFF/USGS_one_meter_x41y402_OK_Woodward_UTM14_B1_2016.tif
-https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/TX_Panhandle_B1_2017/TIFF/USGS_one_meter_x41y402_TX_Panhandle_B1_2017.tif
-https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/TX_Panhandle_B11_2017/TIFF/USGS_one_meter_x41y402_TX_Panhandle_B11_2017.tif
-https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/OK_Woodward_UTM14_B1_2016/TIFF/USGS_one_meter_x42y402_OK_Woodward_UTM14_B1_2016.tif
-https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/TX_Panhandle_B1_2017/TIFF/USGS_one_meter_x42y402_TX_Panhandle_B1_2017.tif

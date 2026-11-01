@@ -69,6 +69,7 @@ thead th{background:var(--ink);color:#fff}thead th:first-child{background:var(--
 .tot{font-weight:700;background:#E2EBDF}
 .facts{display:grid;grid-template-columns:170px minmax(0,1fr);gap:6px 16px;margin:0;max-width:820px}.facts dt{font-weight:700}.facts dd{margin:0;overflow-wrap:anywhere}
 .two{display:grid;grid-template-columns:1fr 1fr;gap:32px}
+.facts.pc{margin-bottom:12px}.sec p.acts{margin:14px 0 12px}
 .lk{list-style:none;padding:0;margin:0}.lk li{padding:9px 0;border-bottom:1px solid var(--line)}.lk small{display:block;color:var(--soft);font-size:14px}
 details{border-top:1px solid var(--line);padding:10px 0}summary{cursor:pointer;font-weight:700;min-height:28px}
 .warn{background:#FBEFD0;border:1px solid var(--sand);padding:10px 12px;border-radius:var(--r);max-width:75ch;margin:0 0 12px}
